@@ -12,6 +12,7 @@ version = property("version") as String
 
 repositories {
     mavenCentral()
+    maven("https://mvn.lib.co.nz/public")
     maven("https://repo.papermc.io/repository/maven-public/")
     maven("https://repo.nexomc.com/snapshots/")
     maven("https://oss.sonatype.org/content/groups/public/")
@@ -29,7 +30,7 @@ repositories {
     maven("https://repo.oraxen.com/snapshots")
     maven("https://jitpack.io")
     maven("https://repo.viaversion.com")
-    //maven("https://maven.evokegames.gg/snapshots")
+    maven("https://maven.evokegames.gg/snapshots")
     maven("https://repo.alessiodp.com/releases")
     maven("https://maven.typewritermc.com/beta")
     maven("https://repo.nexomc.com/snapshots/")
